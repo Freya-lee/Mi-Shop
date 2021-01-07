@@ -1,0 +1,112 @@
+/* 主页样式表 */
+.topbar-wapper {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background-color: #333333;
+}
+
+.topbar-wapper a {
+    display: block;
+    font-size: 12px;
+    color: #b0b0b0;
+    text-decoration: none;
+}
+.service img {
+    width: 90px;
+    height: 90px;
+}
+.service li{
+    font-size: 13px;
+    margin-right: 8px;
+    float: left;
+    color: #424242;
+}
+.shoppingcar {
+    margin-left: 25px;
+    float: right;
+}
+.user-infor a{
+    float: right;
+}
+.user-infor li {
+    margin: 0 8px;
+    float: right;
+    color: #424242;
+}
+.shoppingcar a{
+    float: right;
+    width: 120px;
+    background-color: #424242;
+    text-align: center;
+}
+.shoppingcar i {
+    margin-right: 2px;
+}
+.topbar-wapper .shoppingcar a:hover {
+    color: orange;
+    background-color: #fff;
+}
+.topbar-wapper a:hover {
+    color: #fff;
+}
+
+.app .grcode {
+    
+    width: 124px;
+    height: 148px;
+    border: 1px solid #d8d8d8;
+    border-top: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+    
+    text-align: center;
+    color: #000;
+    position: absolute;
+    left: -38px;
+}
+.app .grcode img {
+    width: 90px;
+    height: 90px;
+    margin: 17px;
+    margin-bottom: 10px;
+    
+
+}
+.app .grcode {
+    line-height: 1;
+    display: none;
+}
+.app {
+    position: relative;
+}
+/* 设置下拉框的小三角 */
+.app::after { 
+    display: none;
+    width: 0;
+    height: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    content: '';
+    border: 6px solid transparent;
+   
+    border-bottom-color: #ffffff;
+}
+.app:hover .grcode ,
+.app:hover::after {
+    display: block;
+}
+.shoppingcar .shoppinglist {
+    width: 315px;
+    height: 98px;
+    background-color:#fff;
+    position: absolute;
+    top: 40px;
+    right: 180px;
+    border: 1px solid #b0b0b0;
+    border-top: 0;
+    
+}
+    
