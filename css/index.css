@@ -1,4 +1,8 @@
 /* 主页样式表 */
+*{
+    padding: 0;
+    margin: 0;
+}
 .topbar-wapper {
     width: 100%;
     height: 40px;
@@ -102,11 +106,179 @@
     width: 315px;
     height: 98px;
     background-color:#fff;
-    position: absolute;
+    /* position: absolute; */
     top: 40px;
     right: 180px;
     border: 1px solid #b0b0b0;
     border-top: 0;
     
 }
+.shoppinglist{
+    display: none;
+}
+
+.logo {
+    float: left;
     
+    padding-top: 30px;
+}
+img{
+    width: 55px;
+}
+.searchbox {
+    float: right;
+   margin-top: 30px;
+    width: 300px;
+    height: 50px;
+    border: #e0e0e0 solid 1px;
+}
+.searchicon {
+    float: right;
+    line-height: 100px;
+    width: 50px;
+    height: 50px;
+    border-left: #e0e0e0 1px solid;
+
+}
+.searchbox i {
+    float:right;
+    margin-top: 17px ;
+    margin-right: 15px;
+    
+}
+.searchbox :hover{
+    background-color: #ee702e;
+    
+    
+}
+.searchicon:hover {
+    color: #d8d8d8;
+    border: 1px solid #b0b0b0;
+}
+.kindsofthings ul {
+    margin-left: 170px;
+}
+.kindsofthings li{
+    line-height: 100px;
+    float: left;
+    padding: 15px;
+    
+   
+}
+.header {
+    height: 100px;
+}
+.headerson {
+    float: left;
+    height: 100px;
+    width: 1225px;
+    margin: auto;
+    margin-left: 50px;
+    line-height: 100px;
+   
+    
+}
+.banner {
+    margin-top: 30px;
+    height: 460px;    
+}
+.banner-son {
+  
+   float: left;
+  
+   margin: auto;
+   margin-left: 50px;
+    height: 460px;
+    width: 1225px;
+   background: url(../image/banner.jpg);
+   background-size: 1225px;
+}
+.bannerleft {
+   float: left;
+    width: 235px;
+   height: 460px;
+    background-color:rgba(0, 0, 0, .3);
+}
+.bannerimg {
+    float: left;
+    height: 460px;
+    width: 100%;
+}
+
+.bannerbox li{
+    
+    height: 45px;
+    float: left;
+    width: 235px;
+    font-size: small;
+    line-height: 45px;
+  
+    
+    
+}
+.bannerbox li  a{
+    display: inline-block;
+    width: 235px;
+    height: 45px;
+    float: left;
+    
+}
+.bannerbox li span {
+    float: right;
+    padding-right: 25px;
+}
+.bannerbox {
+    float: left;
+  margin-top: 6px;
+ 
+    color: #b0b0b0;
+   
+    
+}
+
+.bannerbox li :hover {
+    background-color: #ee702e;
+    color: #fff;
+   
+   
+}
+a{
+text-decoration: none;
+color: #b0b0b0;
+}
+.showbox-son {
+   float: left;
+    width: 1225px;
+    background-color: #bfa;
+    margin: auto;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+.showbox1 {
+    float: left;
+    width: 235px;
+    height: 170px;
+    background-color: yellow;
+    margin-right: 15px;
+}
+.showbox2 {
+    float: left;
+    width: 315px;
+    height: 170px;
+    background-color: pink;
+    margin-right: 15px;
+}
+.showbox3 {
+    float:left;
+    width: 315px;
+    height: 170px;
+    background-color: #b0b0b0;
+    margin-right: 15px;
+
+}
+.showbox4 {
+    float: left;
+    width: 315px;
+    height: 170px;
+    background-color: black;
+}
